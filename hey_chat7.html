@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>bogchat</title>
+    <meta name="description" content="instant messanger">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/chat.css">
+    <link rel="icon" href="img/lilypadlogo.png" type="image/x-icon">
+
+</head>
+<body>
+    <script>
+    document.addEventListener('DOMContentLoaded', function() {
+    // Retrieve answer2 from localStorage
+    var screenName = localStorage.getItem('answer2');
+
+    // Concatenate screen name and message
+    var message = screenName + ": Hey.";
+    var message2 = screenName + ": I was actually hoping to get to know you better.";
+    var message3 = screenName + ": Can you tell me about how you got into fishing?";
+    var message4 = screenName + ": Who's ol' Reliable ?";
+    var message5 = screenName + ": That's actually pretty sweet.";
+    var message6 = screenName + ": I can't wait! I wouldn't miss it for the world.";
+    // Update the content of the <p> tag with the id "screenName"
+    document.getElementById('screenName').textContent = message;
+    document.getElementById('screenName2').textContent = message2;
+    document.getElementById('screenName3').textContent = message3;
+    document.getElementById('screenName4').textContent = message4;
+    document.getElementById('screenName5').textContent = message5;
+    document.getElementById('screenName6').textContent = message6;
+});
+    </script>
+
+    <section>
+        <header>    
+            <img src="img/lilypadlogo.png" alt="lilypadlogo">
+            <p>Bogchat - Instant Messanger</p>
+            <img src="img/controls.png" alt="window controls">
+        </header>
+
+        <div id="chatbox">
+                <p>ReelinNautical: That's great to hear! Say, I think I hear her callin' to me now. I better not keep her waitin'. </p>
+                <p id="screenName6"></p>
+                <p>ReelinNautical: Sweet enough to bring a tear to this old man's eye everyday. Say, you know you're invited to our weddin' next week right?</p>
+                <p id="screenName5"></p>
+                <p>ReelinNautical: Ol' Reliable is my first ever love. She's the most beautiful fishin' rod you ever did see. I still use her everyday. You'd think after 89 years that she'd give out a little but she's still as strong as the day I met her.</p>
+                <p id="screenName4"></p>
+                <p>ReelinNautical: I've always loved fishin' ever since I could walk on my own two legs. When I was a baby I would just grab fish right out of the water with my hands. Things got easier once I met ol' reliable.</p>
+                <p id="screenName3"></p>
+                <p>ReelinNautical: Bit creepy, but I'll bite. What did you want to know?</p>
+                <p id="screenName2"></p>
+                <p>ReelinNautical: Hey there sonny. Always nice to have some company by the metaphorical waters. What's on your mind?</p>
+                <p id="screenName"></p>
+                <p>ReelinNautical has signed in</p>
+            </div>
+        </div>
+        <div id="responsebox">
+            <a href="hey_chat8.html">
+                <div id="response1">1. See ya!</div>
+            </a>
+        </div>
+        <div id="pfp"></div>
+        <div id="ur_pfp"></div>
+        <div id="id">
+            <a href="reelprofile.html">
+                <img src="img/idcard.png">
+            </a>
+        </div>
+    </section>
+    <logo>
+        <img src="img/lilypadlogo.png" alt="lilypadlogo">
+        <p>Bogchat</p>
+    </logo>
+
+</body>
+</html>

@@ -1,0 +1,128 @@
+@font-face {
+    font-family: 'forcedSquare';
+    src: url('/font/FORCED SQUARE.ttf') format('truetype');
+}
+
+body {
+    background-image: url('/img/possible.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+    margin: 0;
+    padding: 0;
+    background-color: khaki;
+    font-family: 'forcedSquare', Arial, sans-serif;
+}
+
+section{
+    margin-top: 1%;
+    background-color: #FEFBE8;
+    border: solid 3px #6E7165;
+    border-radius: 20px;
+    height: 90%; 
+    width: 70%;
+    position: absolute;
+    top: 44%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+}
+
+section a{
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height:6%;
+    width: 100%;
+    background-color: #6EAA78;
+    border: solid 3px #6E7165;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    position: absolute;
+    color: #433455;
+    font-family: 'forcedSquare', Arial, sans-serif;
+    transform: translate(-0.5%, -10%); 
+    font-size: larger;
+}
+
+header img{
+    height:70%;
+    padding: 0 1%;
+}
+
+#pfp img{
+    transform: translate(30%, 0%);
+    border: #9E6C6B 2px solid;
+    height: 20vh;
+    border-radius: 6px;
+}
+
+#pfp p{
+    color: #6EAA78;
+    transform: translate(40%, 350%);
+    font-size: 25px;
+}
+#pfp h3{
+    color: #6EAA78;
+    transform: translate(6%, 35%);
+}
+
+#logo img{
+    margin-left: 3%;
+    scale:1.5;
+    margin-top: 2%;
+}
+
+#logo p{
+    display: flex;
+    align-items: center;
+    color: #433455;
+    margin-left: 1.5%;
+}
+
+#bio{
+    background-color: white;
+    text-align: left;
+    padding-left: 2%;
+    color: #6EAA78;
+    margin-top: 2%;
+    height:50%;
+    width:60%;
+    border: solid 2px #9E6C6B;
+    border-radius: 10px;
+    position: absolute;
+    top: 35%; 
+    left: 40%;
+    transform: translate(-10%, 0%);
+    overflow-y: auto;
+    font-size:large ;
+}
+
+#bio p{
+    text-align: left;
+}
+
+#button{
+    background-color: #6EAA78;
+    color: #6E7165;
+    border: solid 2px #6E7165;
+    width:12vw;
+    height:7vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 45%;
+    text-size-adjust: large;
+    border-radius: 10px;
+    transform: translate(-205%, 100%);
+}
+
+#button:hover{
+    background-color: #81c68d;
+    color: aliceblue;
+}

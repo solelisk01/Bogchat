@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>bogchat</title>
+    <meta name="description" content="instant messanger">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/chat.css">
+    <link rel="icon" href="img/lilypadlogo.png" type="image/x-icon">
+
+</head>
+<body>
+    <audio src="sound effect/logout.mp3" autoplay></audio>
+    <script>
+    document.addEventListener('DOMContentLoaded', function() {
+    // Retrieve answer2 from localStorage
+    var screenName = localStorage.getItem('answer2');
+
+    // Concatenate screen name and message
+    var message = screenName + ": Hey.";
+    var message2 = screenName + ": I was actually hoping to get to know you better.";
+    var message3 = screenName + ": I saw on your profile page that ur a big fan of Britney Spears?";
+    var message4 = screenName + " has run away in fear.";
+    // Update the content of the <p> tag with the id "screenName"
+    document.getElementById('screenName').textContent = message;
+    document.getElementById('screenName2').textContent = message2;
+    document.getElementById('screenName3').textContent = message3;
+    document.getElementById('screenName4').textContent = message4;
+});
+    </script>
+
+    <section>
+        <header>    
+            <img src="img/lilypadlogo.png" alt="lilypadlogo">
+            <p>Bogchat - Instant Messanger</p>
+            <img src="img/controls.png" alt="window controls">
+        </header>
+
+        <div id="chatbox">
+                <p id="screenName4"></p>
+                <p>ReelinNautical: 
+                    Absolutely! "Baby One More Time" by Britney Spears is not just an album to me; it's a nostalgic journey back to a time when pop music was at its peak. This album, released in 1999, was the soundtrack of my teenage years, and it holds a special place in my heart for several reasons.
+                    
+                    Firstly, let's talk about the title track, "...Baby One More Time." It's not just a song; it's a pop anthem that defined a generation. Whenever I hear those iconic opening notes, I'm instantly transported back to a time of innocence and excitement.
+                    
+                    But it's not just about the singles; every song on this album is a gem. From the infectious energy of "(You Drive Me) Crazy" to the heartfelt ballad "From the Bottom of My Broken Heart," each track showcases Britney's versatility as an artist.
+                    
+                    What I love most about this album is its ability to capture the essence of teenage life. The themes of love, heartbreak, and self-discovery resonate with me even to this day. It's a reminder of a time when everything seemed possible, and the future was full of endless opportunities.
+                    
+                    "Baby One More Time" isn't just an album; it's a time capsule that captures the spirit of the late '90s. It's a testament to Britney's talent and influence as an artist. This album will always hold a special place in my heart, reminding me of the joy and excitement of my youth.</p>
+                <p id="screenName3"></p>
+                <p>ReelinNautical: Bit creepy, but I'll bite. What did you want to know?</p>
+                <p id="screenName2"></p>
+                <p>ReelinNautical: Hey there sonny. Always nice to have some company by the metaphorical waters. What's on your mind?</p>
+                <p id="screenName"></p>
+                <p>ReelinNautical has signed in</p>
+            </div>
+        </div>
+        <div id="responsebox">
+            <a href="index.html">
+                <div id="response1">1. OK. </div>
+            </a>
+        </div>
+        <div id="pfp"></div>
+        <div id="ur_pfp"></div>
+        <div id="id">
+            <a href="reelprofile.html">
+                <img src="img/idcard.png">
+            </a>
+        </div>
+    </section>
+    <logo>
+        <img src="img/lilypadlogo.png" alt="lilypadlogo">
+        <p>Bogchat</p>
+    </logo>
+
+</body>
+</html>

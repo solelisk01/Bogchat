@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>bogchat</title>
+    <meta name="description" content="instant messanger">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/chat.css">
+    <link rel="icon" href="img/lilypadlogo.png" type="image/x-icon">
+
+</head>
+<body>
+    <audio src="/sound effect/logout.mp3" autoplay></audio>
+    <script>
+    document.addEventListener('DOMContentLoaded', function() {
+    // Retrieve answer2 from localStorage
+    var screenName = localStorage.getItem('answer2');
+
+    // Concatenate screen name and message
+    var message = screenName + ": Hello.";
+    var message2 = screenName + ": I guess I'm just a little confused.. got any advice?";
+    var message3 = screenName + ": Well I guess i've been thinking about love a lot recently.";
+    var message4 = screenName + ": Well...I guess i'm a bit nervous about how i'll know that I'm in love..";
+    var message5 = screenName + ": Sounds kinda... life threatening and dangerous....?";
+    var message6 = screenName + ": Well I suppose I better get going then. Thanks for the...advice.";
+    var message7 = screenName + ": Sorry...";
+    // Update the content of the <p> tag with the id "screenName"
+    document.getElementById('screenName').textContent = message;
+    document.getElementById('screenName2').textContent = message2;
+    document.getElementById('screenName3').textContent = message3;
+    document.getElementById('screenName4').textContent = message4;
+    document.getElementById('screenName5').textContent = message5;
+    document.getElementById('screenName6').textContent = message6;
+    document.getElementById('screenName7').textContent = message7;
+});
+    </script>
+
+    <section>
+        <header>    
+            <img src="img/lilypadlogo.png" alt="lilypadlogo">
+            <p>Bogchat - Instant Messanger</p>
+            <img src="img/controls.png" alt="window controls">
+        </header>
+
+        <div id="chatbox">
+                <p>ReelinNautical is away.</p>
+                <p id="screenName7"></p>
+                <p>ReelinNautical: Of course, Sonny! Looks like i'm about out of bait so I gotta run too. Seriously though, you gotta stop bein' so formal. Ruined my day a little. I forgive ya tho. See ya round! </p>
+                <p id="screenName6"></p>
+                <p>ReelinNautical: Huh... yeah it kinda does don't it. Never really noticed that.....</p>
+                <p id="screenName5"></p>
+                <p>ReelinNautical: Well it's simple... you'll know you're in love when it feels like you're a fish in the sea then suddenly you see the most gorgeous worm wriggling around and you just cant resist. Love feels like when you finally get that worm all to yourself then suddenly you're plucked out of the water gasping for air frightened and fighting for your life.</p>
+                <p id="screenName4"></p>
+                <p>ReelinNautical: Heh. Who ain't? I remember the first time I set my eyes on my first fishin rod. Ol' reliable I called her. but that might be a different kind of love heh. What's going on?</p>
+                <p id="screenName3"></p>
+                <p>ReelinNautical: Of course! Old man like me's got lots of widsom to pass on. Got anythin' specific in mind?</p>
+                <p id="screenName2"></p>
+                <p>ReelinNautical: Hey there, Sonny. You alright? You're being all formal-like sayin' hello like that.. bit offputtin' if i'm bein' honest.</p>
+                <p id="screenName"></p>
+                <p>ReelinNautical has signed in</p>
+            </div>
+        </div>
+        <div id="responsebox">
+            <a href="index.html">
+                <div id="response1">OK.</div>
+            </a>
+        </div>
+        <div id="pfp"></div>
+        <div id="ur_pfp"></div>
+        <div id="id">
+            <a href="reelprofile.html">
+                <img src="img/idcard.png">
+            </a>
+        </div>
+    </section>
+    <logo>
+        <img src="img/lilypadlogo.png" alt="lilypadlogo">
+        <p>Bogchat</p>
+    </logo>
+
+</body>
+</html>

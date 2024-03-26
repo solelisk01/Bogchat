@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Bogchat</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/friends.css">
+        <link rel="icon" href="img/lilypadlogo.png" type="image/x-icon">
+
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <script src="" async defer></script>
+    </head>
+
+<section>
+    <header>
+        <img src="img/lilypadlogo.png" alt="lilypadlogo">
+            <p>Bogchat - ur so popular!!! (NOT)</p>
+        <img src="img/controls.png" alt="window controls">
+    </header>
+
+    <div id="pfp">
+        <img src="img/pfp1.png">
+        <div id ="ur_online"></div>
+        <div id="word_online">online</div>
+        <p id ="screenName">ur screen name</p>
+        <h3>Your friends</h3>
+    </div>
+    <script>
+        function saveInputs() {
+            var answer1 = document.getElementById('answer1').value;
+            var answer2 = document.getElementById('answer2').value;
+    
+            // Save inputs to localStorage
+            localStorage.setItem('answer1', answer1);
+            localStorage.setItem('answer2', answer2);
+        }
+    
+        // Call saveInputs() function when needed
+    
+        // Retrieve answer1 from localStorage
+        var answer2 = localStorage.getItem('answer2');
+    
+        // Update the content of the <p> tag with the id "screenName"
+        document.getElementById('screenName').textContent = answer2;
+    </script>
+    
+
+        <div class="scroll-box">
+            
+            <div id="container1">
+                <img src="img/reelin.png">
+                <a href="chat.html">
+                    <p>ReelinNautical</p>
+                </a>
+            </div>
+            <div id="um">
+                <img src="img/onlineimg.png">
+                <h3>online</h3>
+            </div>
+
+            <div id="container2">
+                <img src="img/pfp2.png">
+                <a href="chat.html">
+                    <p>lillyypad</p>
+                </a>
+            </div>
+            <div id="um">
+                <img src="img/offline.png">
+                <h3>offline</h3>
+            </div>
+            <div id="container3">
+                <img src="img/pfp3.png">
+                <a href="chat.html">
+                    <p>XxPondPrincexX</p>
+                </a>
+            </div>
+            <div id="um">
+                <img src="img/offline.png">
+                <h3>offline</h3>
+            </div>
+
+            <div id="container1">
+                <img src="img/pfp6.png">
+                <a href="chat.html">
+                    <p>M0ssy_Whisp3r</p>
+                </a>
+            </div>
+            <div id="um">
+                <img src="img/offline.png">
+                <h3>offline</h3>
+            </div>
+            <div id="container1">
+                <img src="img/pfp4.png">
+                <a href="chat.html">
+                    <p>Swampxseeker</p>
+                </a>
+            </div>
+            <div id="um">
+                <img src="img/offline.png">
+                <h3>offline</h3>
+            </div>
+
+            <div id="container2">
+                <img src="img/pfp5.png">
+                <a href="chat.html">
+                    <p>Frogger</p>
+                </a>
+            </div>
+            <div id="um">
+                <img src="img/offline.png">
+                <h3>offline</h3>
+            </div>
+
+            <div id="container1">
+                <img src="img/pfp7.png">
+                <a href="chat.html">
+                    <p>Croakcharm</p>
+                </a>
+            </div>
+            <div id="um">
+                <img src="img/offline.png">
+                <h3>offline</h3>
+            </div>
+
+            </div>
+    </section>
+<logo>
+    <img src="img/lilypadlogo.png" alt="lilypadlogo">
+    <p>Bogchat</p>
+</logo>
+
+</body>
+</html>

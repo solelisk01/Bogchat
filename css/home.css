@@ -1,0 +1,26 @@
+@font-face {
+    font-family: 'forcedSquare';
+    src: url('/font/FORCED SQUARE.ttf') format('truetype');
+}
+
+body {
+    background-image: url('/img/indexbg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+    margin: 0;
+    padding: 0;
+    background-color: khaki;
+    font-family: 'forcedSquare', Arial, sans-serif; 
+}
+#bogchat a{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 40px;
+    border: 2px black solid;
+}
+
+#bogchat p{
+    transform: translate(70%,550%);
+    margin-bottom: 0;
+}

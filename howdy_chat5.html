@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>bogchat</title>
+    <meta name="description" content="instant messanger">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/chat.css">
+    <link rel="icon" href="img/lilypadlogo.png" type="image/x-icon">
+
+</head>
+<body>
+    <script>
+    document.addEventListener('DOMContentLoaded', function() {
+    // Retrieve answer2 from localStorage
+    var screenName = localStorage.getItem('answer2');
+
+    // Concatenate screen name and message
+    var message = screenName + ": Howdy.";
+    var message2 = screenName + ": I'm lookin' for some sage advice. Think a wise old man like you can help a youngin' like me?";
+    var message3 = screenName + ": Well.. you got any wisdom to spare on love?";
+    var message4 = screenName + ": Just how am I meant to know when i've found THE one?";
+    // Update the content of the <p> tag with the id "screenName"
+    document.getElementById('screenName').textContent = message;
+    document.getElementById('screenName2').textContent = message2;
+    document.getElementById('screenName3').textContent = message3;
+    document.getElementById('screenName4').textContent = message4;
+});
+    </script>
+
+    <section>
+        <header>    
+            <img src="img/lilypadlogo.png" alt="lilypadlogo">
+            <p>Bogchat - Instant Messanger</p>
+            <img src="img/controls.png" alt="window controls">
+        </header>
+
+        <div id="chatbox">
+                <p>ReelinNautical: Well its a mighty great feelin' right in the pit of your stomach. When you get to lookin' at the person you think you love and it feels like you're a great big fish stuck in a net fighting for your life trying to escape and your heart beats faster and faster. That's when you'll know!</p>
+                <p id="screenName4"></p>
+                <p>ReelinNautical: Heh. Course I do! Not to brag but i've been in love bout 100 times at this point. I'll always remember my first love 'ol reliable. My first ever fishin' rod. Anyways got anythin' in specific?</p>
+                <p id="screenName3"></p>
+                <p>ReelinNautical: You're darn tootin'. What kind of advice are you needin' today?</p>
+                <p id="screenName2"></p>
+                <p>ReelinNautical: Howdy to you too pardner! How are ya?</p>
+                <p id="screenName"></p>
+                <p>ReelinNautical has signed in</p>
+            </div>
+        </div>
+        <div id="responsebox">
+            <a href="howdy_chat6.html">
+                <div id="response1">1. Sounds quite scary.. </div>
+            </a>
+        </div>
+        <div id="pfp"></div>
+        <div id="ur_pfp"></div>
+        <div id="id">
+            <a href="reelprofile.html">
+                <img src="img/idcard.png">
+            </a>
+        </div>
+    </section>
+    <logo>
+        <img src="img/lilypadlogo.png" alt="lilypadlogo">
+        <p>Bogchat</p>
+    </logo>
+
+</body>
+</html>

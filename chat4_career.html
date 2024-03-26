@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>bogchat</title>
+    <meta name="description" content="instant messanger">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/chat.css">
+    <link rel="icon" href="img/lilypadlogo.png" type="image/x-icon">
+
+</head>
+<body>
+    <script>
+    document.addEventListener('DOMContentLoaded', function() {
+    // Retrieve answer2 from localStorage
+    var screenName = localStorage.getItem('answer2');
+
+    // Concatenate screen name and message
+    var message = screenName + ": Hey.";
+    var message2 = screenName + ": I was hoping to get some advice actually.";
+    var message3 = screenName + ": Well ive been thinking about my future career. Got any wise words?";
+    // Update the content of the <p> tag with the id "screenName"
+    document.getElementById('screenName').textContent = message;
+    document.getElementById('screenName2').textContent = message2;
+    document.getElementById('screenName3').textContent = message3;
+});
+    </script>
+
+    <section>
+        <header>    
+            <img src="img/lilypadlogo.png" alt="lilypadlogo">
+            <p>Bogchat - Instant Messanger</p>
+            <img src="img/controls.png" alt="window controls">
+        </header>
+
+        <div id="chatbox">
+                <p>ReelinNautical: Heh. is this some kind of joke?</p>
+                <p id="screenName3"></p>
+                <p>ReelinNautical: Ok guppy, what kind of advice are you needin' today?</p>
+                <p id="screenName2"></p>
+                <p>ReelinNautical: Hey there sonny. Always nice to have some company by the metaphorical waters. What's on your mind?</p>
+                <p id="screenName"></p>
+                <p>ReelinNautical has signed in</p>
+            </div>
+        </div>
+        <div id="responsebox">
+            <a href="chat5_career.html">
+                <div id="response1">1. What? </div>
+            </a>
+        </div>
+        <div id="pfp"></div>
+        <div id="ur_pfp"></div>
+        <div id="id">
+            <a href="reelprofile.html">
+                <img src="img/idcard.png">
+            </a>
+        </div>
+    </section>
+    <logo>
+        <img src="img/lilypadlogo.png" alt="lilypadlogo">
+        <p>Bogchat</p>
+    </logo>
+
+</body>
+</html>

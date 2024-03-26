@@ -1,10 +1,10 @@
 @font-face {
     font-family: 'forcedSquare';
-    src: url('/font/FORCED SQUARE.ttf') format('truetype');
+    src: url('font/FORCED SQUARE.ttf') format('truetype');
 }
 
 body {
-    background-image: url('/img/possible.png');
+    background-image: url('img/possible.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-size: 100vw 100vh;
@@ -120,7 +120,7 @@ header img{
 
 #pfp{
     background-color: #FFF8F0;
-    background-image: url(/img/reelin.png);
+    background-image: url(img/reelin.png);
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -138,7 +138,7 @@ header img{
 
 #ur_pfp{
     background-color: white;
-    background-image: url(/img/pfp1.png);
+    background-image: url(img/pfp1.png);
     background-size: cover;
     text-align: center;
     background-repeat: no-repeat;

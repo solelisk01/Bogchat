@@ -23,4 +23,5 @@ body {
 #bogchat p{
     transform: translate(70%,600%);
     margin-bottom: 0;
+    font-size: 40px;
 }
